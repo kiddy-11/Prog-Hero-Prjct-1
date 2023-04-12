@@ -1,15 +1,20 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-span{
+h2{
+    font-size: 30px;
+}
+.orange{
     color: orange;
 }
-section{
+.flexiable-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .helf-width{
     width: 50%;
     padding: 5%;
+    box-shadow: yellowgreen;
 }
 .helf-width img{
     width: 80%;
@@ -21,4 +26,13 @@ button{
     border: none;
     color:orange;
     font-weight:700 ;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10%;
+    border-left: 5px solid blue;
 }
